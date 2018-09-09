@@ -53,7 +53,12 @@ li a {
 
 p {  
 font-family: Arial;
+hight:  600px;
+width:  60%;
 }
+
+img
+{ margin:  5px; }
 
 .text {
     font-family: Arial;
@@ -70,13 +75,18 @@ font-family: Arial;
     margin: 10px 0;
     padding-top: 20px;
 }
-
+/* Footer positioning picture*/
 .center {
     display: block;
     hight: 350px;
     width: 100px;
     margin-left: auto;
     margin-right: auto;
+}
+footer {
+    text-align:center;
+    font-family: Arial;
+    font-size: 12px;
 }
 
 .responsive-image {
@@ -90,19 +100,21 @@ flex-flow: column;
 align-items: center;
 }
 
-
+/* Size of the pictures and text under Latest blog Posts */
 
 .cell > img {
     display: block;
     margin: 10px 0;
     padding-top: 20px;
+    hight:  600px;
+    width:  60%;
 }
 
 .container {
     padding: 10px;
     margin: 10px
 }
-
+/* for different screen sizes */
 @media screen and (min-width: 600px) {
     .grid {
         display: flex;
@@ -124,8 +136,3 @@ hr {
     height: 4px;
 }
 
-.footer {
-    text-align: center;
-    font-family: Arial;
-    font-size: 12px;
-}
