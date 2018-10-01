@@ -1,0 +1,138 @@
+/* The hero image */
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+    /* Set a specific height */
+    height: 10%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+
+    padding-top: 50px;
+    margin-top: 05px;
+}
+
+
+/* Place text in the middle of the image */
+
+.hero-text {
+    text-align: right;
+    color: black;
+    font-family: arial;
+    padding-bottom: 20px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-10%, -150%);
+}
+
+
+/* Header */
+
+
+/* Navigation */
+
+ul li {
+    display: inline-block;
+    padding-top: 15px;
+    margin-right: 15px;
+}
+
+.navigation {
+    font-family: Arial;
+    background-color: #492311;
+    height: 50px;
+    margin: 10px 0;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+}
+
+p {  
+font-family: Arial;
+hight:  600px;
+width:  60%;
+}
+
+img
+{ margin:  5px; }
+
+.text {
+    font-family: Arial;
+    font-size: 80px;
+    text-align: center
+}
+
+.latest {
+    font-family: Arial;
+    color: white;
+    padding-left: 20px;
+    background-color: #8C7773;
+    height: 40px;
+    margin: 10px 0;
+    padding-top: 20px;
+}
+/* Footer positioning picture*/
+.center {
+    display: block;
+    hight: 350px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align:center;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.responsive-image {
+    max-width: 100%;
+    min-width: 20%;
+}
+
+.grid > div{
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+
+/* Size of the pictures and text under Latest blog Posts */
+
+.cell > img {
+    display: block;
+    margin: 10px 0;
+    padding-top: 20px;
+    hight:  600px;
+    width:  60%;
+}
+
+.container {
+    padding: 10px;
+    margin: 10px
+}
+/* for different screen sizes */
+@media screen and (min-width: 600px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .cell {
+        width: 50%;
+    }
+}
+
+
+hr {
+    border: 0;
+    width: 100%;
+    color: #8C7773;
+    background-color: #8C7773;
+    height: 4px;
+}
+
